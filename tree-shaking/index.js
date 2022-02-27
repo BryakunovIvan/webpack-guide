@@ -1,1 +1,3 @@
-console.log('123123')
+import { sum } from "./lib-math";
+
+sum(1,4)
