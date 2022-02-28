@@ -8,6 +8,7 @@
     "webpack-cli": "^4.9.2"
   },
   "scripts": {
-    "build:tree-shaking": "webpack --config=./tree-shaking/webpack.common.js"
+    "build:tree-shaking": "webpack --config=./tree-shaking/webpack.common.js",
+    "build:plugin-example": "webpack --config=./plugin-example/webpack.common.js"
   }
 }
