@@ -9,10 +9,6 @@ module.exports = {
         path: path.resolve(__dirname, "./dist"), 
         filename: "[name].js", 
     },
-    optimization: {
-        minimize: true,
-        usedExports: true,
-    },
     plugins: [
         new MyExampleWebpackPlugin(),
     ]
